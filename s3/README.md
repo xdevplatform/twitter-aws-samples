@@ -36,7 +36,7 @@ When you add the appropriate keys as your environment variables (steps shown in 
 ## Running this script
 - Download this project
 - Make sure that you have added the right Twitter bearer token and the AWS keys as environment variables as shown in the steps above. __Note:__ If you do not have an AWS account, or if your AWS keys and bucket name are not setup correctly, then the file with Tweets will be written to your local machine only.
-- Install dependencies specified in the requirements.txt file by running:<br>
+- Install dependencies specified in the [requirements.txt](https://github.com/twitterdev/twitter-aws-samples/blob/master/requirements.txt) file by running:<br>
 `pip3 install -r requirements.txt`
 - Run the s3_demo.py file by running the following command in the terminal:<br>
 `python3 s3_demo.py`
