@@ -43,7 +43,7 @@ When you add the appropriate keys as your environment variables (steps shown in 
 ## Running this script
 - Download this project
 - Make sure that you have added the right Twitter bearer token and the AWS keys and region as environment variables as shown in the steps above.
-- Install dependencies specified in the requirements.txt file by running:<br>
+- Install dependencies specified in the [requirements.txt](https://github.com/twitterdev/twitter-aws-samples/blob/master/requirements.txt) file by running:<br>
 `pip3 install -r requirements.txt`
 - Run the kinesis_demo.py file by running the following command in the terminal:<br>
 `python3 kinesis_demo.py`
