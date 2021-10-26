@@ -21,7 +21,8 @@ aws_delivery_stream_name = 'your_delivery_stream_name'
 def stream_connect(headers):
     kinesis_client = boto3.client('firehose',
                                   region_name=os.environ.get("aws_region"),
-                                  aws_access_key_id=os.environ.get("aws_access_key_id"),
+                                  aws_access_key_id=os.environ.get(
+                                      "aws_access_key_id"),
                                   aws_secret_access_key=os.environ.get("aws_secret_access_key"))
 
     response = requests.request("GET", url, headers=headers, stream=True)
